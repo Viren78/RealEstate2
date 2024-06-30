@@ -1,9 +1,17 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
 /********** Template CSS **********/
 :root {
-    --primary: #00B98E;
+    --primary: #000000;
     --secondary: #FF6922;
     --light: #EFFDF5;
     --dark: #0E2E50;
+}
+
+::selection{
+    color: #ffffff;
+    background: #000;
 }
 
 .back-to-top {
@@ -242,7 +250,7 @@
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
     transition: .5s;
 }
 
